@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16531056500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter facebook page",
+            "match": {
+              "location": "cucumbercode.enterurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5726185100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "cucumbercode.enterusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444599800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "success message is displayed",
+            "match": {
+              "location": "cucumbercode.printmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "Verify if user is able to Login in to the site",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "bddtest.feature"
+  }
+]
